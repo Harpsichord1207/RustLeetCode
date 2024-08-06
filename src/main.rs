@@ -1,4 +1,6 @@
 mod l541;
+mod l796;
+mod l543;
 
 use l541::Solution;
 
