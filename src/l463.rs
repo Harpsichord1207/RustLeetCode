@@ -13,7 +13,7 @@ impl Solution {
                 if i == 0 || grid[i-1][j] == 0 {
                     p += 1;
                 }
-                if i == row_count- 1 || grid[i+1][j] == 0 {
+                if i == row_count - 1 || grid[i+1][j] == 0 {
                     p += 1;
                 }
                 if j == 0 || grid[i][j-1] == 0 {
