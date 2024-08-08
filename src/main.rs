@@ -1,12 +1,13 @@
+mod l306;
 mod l463;
 mod l541;
 mod l543;
 mod l796;
 mod l3238;
 
-use l3238::Solution;
+use l306::Solution;
 
 fn main() {
-    let resp = Solution::winning_player_count(2, vec![vec![0, 8], vec![0, 3]]);
+    let resp = Solution::is_additive_number("198019823962".to_string());
     println!("{:?}", resp);
 }
