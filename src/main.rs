@@ -6,11 +6,12 @@ mod l463;
 mod l541;
 mod l543;
 mod l796;
+mod l1021;
 mod l3238;
 
-use l438::Solution;
+use l1021::Solution;
 
 fn main() {
-    let resp = Solution::find_anagrams("cbaebabacd".to_string(), "abc".to_string());
+    let resp = Solution::remove_outer_parentheses("(()())(())".to_string());
     println!("{:?}", resp);
 }
