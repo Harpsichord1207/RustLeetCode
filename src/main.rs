@@ -8,11 +8,12 @@ mod l543;
 mod l796;
 mod l997;
 mod l1021;
+mod l1756;
 mod l3238;
 
-use l997::Solution;
+use l1756::Solution;
 
 fn main() {
-    let resp = Solution::find_judge(4, vec![vec![1,2], vec![1,3], vec![2,1], vec![2,3], vec![1,4], vec![4,3], vec![4,1]]);
+    let resp = Solution::highest_peak(vec![vec![0, 1], vec![0, 0]]);
     println!("{:?}", resp);
 }
