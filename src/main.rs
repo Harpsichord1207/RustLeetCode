@@ -9,6 +9,7 @@ mod l796;
 mod l997;
 mod l1021;
 mod l1756;
+mod l2582;
 mod l3238;
 
 use l1756::Solution;
