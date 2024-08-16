@@ -6,6 +6,7 @@ mod l463;
 mod l541;
 mod l543;
 mod l796;
+mod l859;
 mod l997;
 mod l1021;
 mod l1395;
@@ -13,9 +14,9 @@ mod l1756;
 mod l2582;
 mod l3238;
 
-use l1395::Solution;
+use l859::Solution;
 
 fn main() {
-    let resp = Solution::num_teams(vec![2,5,3,4,1]);
+    let resp = Solution::buddy_strings("cba".to_string(), "abc".to_string());
     println!("{:?}", resp);
 }
