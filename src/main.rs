@@ -6,6 +6,7 @@ mod l463;
 mod l541;
 mod l543;
 mod l796;
+mod l855;
 mod l859;
 mod l997;
 mod l1021;
@@ -14,9 +15,22 @@ mod l1756;
 mod l2582;
 mod l3238;
 
-use l859::Solution;
+use l855::ExamRoom;
 
 fn main() {
-    let resp = Solution::buddy_strings("cba".to_string(), "abc".to_string());
-    println!("{:?}", resp);
+    let mut exam_room = ExamRoom::new(8);
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.leave(0);
+    exam_room.leave(7);
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.seat();
+    exam_room.seat();
+
+    println!("{:?}", exam_room.occupied);
 }
