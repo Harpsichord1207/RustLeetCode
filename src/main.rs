@@ -14,9 +14,11 @@ mod l1021;
 mod l1054;
 mod l1395;
 mod l1756;
+mod l2130;
 mod l2582;
 mod l3026;
 mod l3238;
+
 
 use l443::Solution;
 
