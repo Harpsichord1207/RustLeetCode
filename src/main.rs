@@ -17,15 +17,14 @@ mod l1756;
 mod l2130;
 mod l2131;
 mod l2582;
+mod l2947;
 mod l3026;
 mod l3238;
 
 
-use l2131::Solution;
+use l2947::Solution;
 
 fn main() {
-    let string = vec!["qo","fo","fq","qf","fo","ff","qq","qf","of","of","oo","of","of","qf","qf","of"];
-    // let string = vec!["lc","cl","gg"];
-    let resp = Solution::longest_palindrome(string.into_iter().map(|s|s.to_string()).collect());
+    let resp = Solution::beautiful_substrings("uzuxpzou".to_string(), 3);
     println!("{:?}", resp);
 }
