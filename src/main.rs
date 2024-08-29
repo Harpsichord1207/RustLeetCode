@@ -25,6 +25,6 @@ mod l3238;
 use l2947::Solution;
 
 fn main() {
-    let resp = Solution::beautiful_substrings("uzuxpzou".to_string(), 3);
+    let resp = Solution::beautiful_substrings("o".to_string(), 1000);
     println!("{:?}", resp);
 }
