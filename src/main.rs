@@ -7,6 +7,7 @@ mod l463;
 mod l541;
 mod l543;
 mod l796;
+mod l846;
 mod l855;
 mod l859;
 mod l997;
@@ -22,9 +23,9 @@ mod l3026;
 mod l3238;
 
 
-use l2947::Solution;
+use l846::Solution;
 
 fn main() {
-    let resp = Solution::beautiful_substrings("o".to_string(), 1000);
+    let resp = Solution::is_n_straight_hand(vec![1,2,3,6,2,3,4,7,8], 3);
     println!("{:?}", resp);
 }
