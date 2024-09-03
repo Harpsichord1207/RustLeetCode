@@ -16,6 +16,7 @@ mod l1054;
 mod l1357;
 mod l1395;
 mod l1756;
+mod l1945;
 mod l2130;
 mod l2131;
 mod l2582;
@@ -24,9 +25,9 @@ mod l3026;
 mod l3238;
 
 
-use l846::Solution;
+use l1945::Solution;
 
 fn main() {
-    let resp = Solution::is_n_straight_hand(vec![1,2,3,6,2,3,4,7,8], 3);
+    let resp = Solution::get_lucky("abcd".to_string(), 1);
     println!("{:?}", resp);
 }

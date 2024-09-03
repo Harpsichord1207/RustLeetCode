@@ -39,8 +39,3 @@ impl Cashier {
     }
 }
 
-/**
- * Your Cashier object will be instantiated and called as such:
- * let obj = Cashier::new(n, discount, products, prices);
- * let ret_1: f64 = obj.get_bill(product, amount);
- */
