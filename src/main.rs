@@ -15,6 +15,7 @@ mod l1021;
 mod l1054;
 mod l1357;
 mod l1395;
+mod l1592;
 mod l1756;
 mod l1945;
 mod l2130;
@@ -25,9 +26,9 @@ mod l3026;
 mod l3238;
 
 
-use l1945::Solution;
+use l1592::Solution;
 
 fn main() {
-    let resp = Solution::get_lucky("abcd".to_string(), 1);
+    let resp = Solution::reorder_spaces("  this   is  a sentence ".to_string());
     println!("{:?}", resp);
 }
