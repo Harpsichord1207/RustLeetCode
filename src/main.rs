@@ -10,6 +10,7 @@ mod l796;
 mod l846;
 mod l855;
 mod l859;
+mod l874;
 mod l997;
 mod l1021;
 mod l1054;
@@ -26,9 +27,9 @@ mod l3026;
 mod l3238;
 
 
-use l1592::Solution;
+use l874::Solution;
 
 fn main() {
-    let resp = Solution::reorder_spaces("  this   is  a sentence ".to_string());
+    let resp = Solution::robot_sim(vec![4,-1,4,-2,4], vec![vec![2, 4]]);
     println!("{:?}", resp);
 }
