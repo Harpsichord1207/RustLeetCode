@@ -9,6 +9,7 @@ pub struct ListNode {
 
 impl ListNode {
   #[inline]
+  #[allow(dead_code)]
   fn new(val: i32) -> Self {
     ListNode {
       next: None,
@@ -18,6 +19,7 @@ impl ListNode {
 }
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn pair_sum(head: Option<Box<ListNode>>) -> i32 {
         let mut values = vec![];
         let mut h = head;

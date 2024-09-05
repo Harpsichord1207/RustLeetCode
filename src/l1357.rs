@@ -15,7 +15,7 @@ struct Cashier {
  * If you need a mutable reference, change it to `&mut self` instead.
  */
 impl Cashier {
-
+    #[allow(dead_code)]
     fn new(n: i32, discount: i32, products: Vec<i32>, prices: Vec<i32>) -> Self {
         let len = products.len();
         let product_price = (0..len)

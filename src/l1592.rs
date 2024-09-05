@@ -2,6 +2,7 @@ pub struct Solution;
 
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn reorder_spaces(text: String) -> String {
         let space = text.chars().filter(|&c| c == ' ').count();
         let words = text.split_ascii_whitespace().into_iter().map(

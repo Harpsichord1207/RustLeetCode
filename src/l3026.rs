@@ -3,6 +3,7 @@ use std::collections::HashMap;
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn maximum_subarray_sum(nums: Vec<i32>, k: i32) -> i64 {
         let mut result = i64::MIN;
         let mut current_sum = 0i64;

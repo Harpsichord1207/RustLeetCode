@@ -3,6 +3,7 @@ use std::collections::HashMap;
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn longest_palindrome(words: Vec<String>) -> i32 {
 
         let mut m = HashMap::<String, usize>::new();

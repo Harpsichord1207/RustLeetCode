@@ -19,6 +19,7 @@ mod l1395;
 mod l1592;
 mod l1756;
 mod l1945;
+mod l2028;
 mod l2130;
 mod l2131;
 mod l2582;
@@ -27,9 +28,9 @@ mod l3026;
 mod l3238;
 
 
-use l874::Solution;
+use l2028::Solution;
 
 fn main() {
-    let resp = Solution::robot_sim(vec![4,-1,4,-2,4], vec![vec![2, 4]]);
+    let resp = Solution::missing_rolls(vec![6,3,4,3,5,3], 1, 6);
     println!("{:?}", resp);
 }

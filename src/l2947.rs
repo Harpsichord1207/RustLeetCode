@@ -3,6 +3,7 @@ use std::collections::HashMap;
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn beautiful_substrings(s: String, k: i32) -> i32 {
         let mut length = 0;
         for i in 1..=s.len() {
@@ -21,7 +22,7 @@ impl Solution {
         let mut v_c = 0;
         let mut ans = 0;
 
-        for (i, ch) in s.chars().enumerate() {
+        for (_, ch) in s.chars().enumerate() {
             if "aeiou".contains(ch) {
                 v += 1;
                 v_c += 1;

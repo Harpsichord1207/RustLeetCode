@@ -3,6 +3,7 @@ use std::collections::VecDeque;
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn highest_peak(is_water: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         let m = is_water.len();
         let n = is_water[0].len();

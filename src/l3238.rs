@@ -3,6 +3,7 @@ use std::collections::HashMap;
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn winning_player_count(n: i32, pick: Vec<Vec<i32>>) -> i32 {
         let mut m = HashMap::new();
         let mut res_vec = vec![0; n as usize];

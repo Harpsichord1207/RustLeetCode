@@ -1,6 +1,7 @@
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn get_lucky(s: String, k: i32) -> i32 {
         let mut s = s.chars().into_iter().map(
             |c| (c as i32 - 'a' as i32 + 1).to_string()
