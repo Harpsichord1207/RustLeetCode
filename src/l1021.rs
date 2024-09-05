@@ -1,6 +1,7 @@
 pub struct Solution;
 
 
+#[allow(dead_code)]
 impl Solution {
 
     pub fn remove_outer_parentheses(s: String) -> String {

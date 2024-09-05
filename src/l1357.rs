@@ -1,7 +1,9 @@
 use std::collections::HashMap;
 
+#[allow(dead_code)]
 pub struct Solution;
 
+#[allow(dead_code)]
 struct Cashier {
     n: i32,
     discount: i32,
@@ -26,6 +28,7 @@ impl Cashier {
         }
     }
 
+    #[allow(dead_code)]
     fn get_bill(&mut self, product: Vec<i32>, amount: Vec<i32>) -> f64 {
         self.c += 1;
         let mut bill = 0;

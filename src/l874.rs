@@ -1,5 +1,6 @@
 use std::collections::HashSet;
 
+#[allow(dead_code)]
 pub struct Solution;
 
 #[derive(Copy, Clone, Eq, PartialEq, Hash, Default)]
@@ -73,6 +74,7 @@ impl Direction {
 }
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn robot_sim(commands: Vec<i32>, obstacles: Vec<Vec<i32>>) -> i32 {
         let obstacles = obstacles
             .into_iter()

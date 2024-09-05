@@ -1,8 +1,10 @@
 use std::collections::{BinaryHeap, HashMap};
 
+#[allow(dead_code)]
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn rearrange_barcodes(barcodes: Vec<i32>) -> Vec<i32> {
         let mut h: BinaryHeap<(i32, i32)> = barcodes.into_iter().fold(
             HashMap::new(), |mut acc, b| {

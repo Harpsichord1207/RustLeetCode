@@ -3,6 +3,7 @@ use std::collections::HashSet;
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn buddy_strings(s: String, goal: String) -> bool {
         let len = s.len();
         let s = s.chars().collect::<Vec<char>>();

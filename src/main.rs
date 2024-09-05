@@ -1,4 +1,5 @@
 mod l25;
+mod l41;
 mod l126;
 mod l306;
 mod l368;
@@ -29,9 +30,9 @@ mod l3026;
 mod l3238;
 
 
-use l2028::Solution;
+use l41::Solution;
 
 fn main() {
-    let resp = Solution::missing_rolls(vec![6,3,4,3,5,3], 1, 6);
+    let resp = Solution::first_missing_positive(vec![3,4,-1,1]);
     println!("{:?}", resp);
 }
